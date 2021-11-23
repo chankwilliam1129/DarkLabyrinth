@@ -1,0 +1,671 @@
+Signature = XACT3;
+Version = 18;
+Content Version = 46;
+Release = June 2010;
+
+Options
+{
+    Verbose Report = 0;
+    Generate C/C++ Headers = 1;
+}
+
+Global Settings
+{
+    Xbox File = Xbox\sounds.xgs;
+    Windows File = Win\sounds.xgs;
+    Header File = C:\Users\2190043\Desktop\0030\Data\Sounds\sounds.h;
+    Exclude Category Names = 0;
+    Exclude Variable Names = 0;
+    Last Modified Low = 2866872782;
+    Last Modified High = 30818514;
+
+    Category
+    {
+        Name = Global;
+        Public = 1;
+        Background Music = 0;
+        Volume = 0;
+
+        Category Entry
+        {
+        }
+
+        Instance Limit
+        {
+            Max Instances = 255;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Category
+    {
+        Name = Default;
+        Public = 1;
+        Background Music = 0;
+        Volume = 0;
+
+        Category Entry
+        {
+            Name = Global;
+        }
+
+        Instance Limit
+        {
+            Max Instances = 255;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Category
+    {
+        Name = Music;
+        Public = 1;
+        Background Music = 1;
+        Volume = 0;
+
+        Category Entry
+        {
+            Name = Global;
+        }
+
+        Instance Limit
+        {
+            Max Instances = 255;
+            Behavior = 0;
+
+            Crossfade
+            {
+                Fade In = 0;
+                Fade Out = 0;
+                Crossfade Type = 0;
+            }
+        }
+    }
+
+    Variable
+    {
+        Name = OrientationAngle;
+        Public = 1;
+        Global = 0;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = -180.000000;
+        Max = 180.000000;
+    }
+
+    Variable
+    {
+        Name = DopplerPitchScalar;
+        Public = 1;
+        Global = 0;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 1.000000;
+        Initial Value = 1.000000;
+        Min = 0.000000;
+        Max = 4.000000;
+    }
+
+    Variable
+    {
+        Name = SpeedOfSound;
+        Public = 1;
+        Global = 1;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 343.500000;
+        Initial Value = 343.500000;
+        Min = 0.000000;
+        Max = 1000000.000000;
+    }
+
+    Variable
+    {
+        Name = ReleaseTime;
+        Public = 1;
+        Global = 0;
+        Internal = 1;
+        External = 1;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 1;
+        Time = 1;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 15000.000000;
+    }
+
+    Variable
+    {
+        Name = AttackTime;
+        Public = 1;
+        Global = 0;
+        Internal = 1;
+        External = 1;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 1;
+        Time = 1;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 15000.000000;
+    }
+
+    Variable
+    {
+        Name = NumCueInstances;
+        Public = 1;
+        Global = 0;
+        Internal = 1;
+        External = 1;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 1;
+        Time = 0;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 1024.000000;
+    }
+
+    Variable
+    {
+        Name = Distance;
+        Public = 1;
+        Global = 0;
+        Internal = 0;
+        External = 0;
+        Monitored = 1;
+        Reserved = 1;
+        Read Only = 0;
+        Time = 0;
+        Value = 0.000000;
+        Initial Value = 0.000000;
+        Min = 0.000000;
+        Max = 1000000.000000;
+    }
+}
+
+Wave Bank
+{
+    Name = Wave Bank 2;
+    Xbox File = Xbox\Wave Bank 2.xwb;
+    Windows File = Win\Wave Bank 2.xwb;
+    Xbox Bank Path Edited = 0;
+    Windows Bank Path Edited = 0;
+    Seek Tables = 1;
+    Compression Preset Name = <none>;
+    Xbox Bank Last Modified Low = 0;
+    Xbox Bank Last Modified High = 0;
+    PC Bank Last Modified Low = 2867002523;
+    PC Bank Last Modified High = 30818514;
+    Bank Last Revised Low = 2814810933;
+    Bank Last Revised High = 30818514;
+
+    Wave
+    {
+        Name = 00playerattack;
+        File = waveDate\00playerattack.wav;
+        Build Settings Last Modified Low = 389255692;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 17126;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3155934720;
+            Last Modified High = 30818430;
+        }
+    }
+
+    Wave
+    {
+        Name = 01playerdamege;
+        File = waveDate\01playerdamege.wav;
+        Build Settings Last Modified Low = 445258165;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 102;
+            Play Region Length = 69120;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3237497088;
+            Last Modified High = 30818172;
+        }
+    }
+
+    Wave
+    {
+        Name = 02playerdead;
+        File = waveDate\02playerdead.wav;
+        Build Settings Last Modified Low = 469628764;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 142;
+            Play Region Length = 704576;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2930963712;
+            Last Modified High = 30818278;
+        }
+    }
+
+    Wave
+    {
+        Name = 03foot;
+        File = waveDate\03foot.wav;
+        Build Settings Last Modified Low = 479963430;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 177232;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2910763776;
+            Last Modified High = 30818119;
+        }
+    }
+
+    Wave
+    {
+        Name = 04enemyattack;
+        File = waveDate\04enemyattack.wav;
+        Build Settings Last Modified Low = 488959384;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 51474;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3806130944;
+            Last Modified High = 30818436;
+        }
+    }
+
+    Wave
+    {
+        Name = 05bell;
+        File = waveDate\05bell.wav;
+        Build Settings Last Modified Low = 522136898;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 152;
+            Play Region Length = 589912;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3119136000;
+            Last Modified High = 30818375;
+        }
+    }
+
+    Wave
+    {
+        Name = 06enemydead;
+        File = waveDate\06enemydead.wav;
+        Build Settings Last Modified Low = 541441385;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 134;
+            Play Region Length = 379024;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3119136000;
+            Last Modified High = 30818375;
+        }
+    }
+
+    Wave
+    {
+        Name = 07explo;
+        File = waveDate\07explo.wav;
+        Build Settings Last Modified Low = 552096668;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 172622;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1752925952;
+            Last Modified High = 30818338;
+        }
+    }
+
+    Wave
+    {
+        Name = 08itemget;
+        File = waveDate\08itemget.wav;
+        Build Settings Last Modified Low = 561440526;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 164;
+            Play Region Length = 637948;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 4057958656;
+            Last Modified High = 30818339;
+        }
+    }
+
+    Wave
+    {
+        Name = 09soubi;
+        File = waveDate\09soubi.wav;
+        Build Settings Last Modified Low = 573972509;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 78;
+            Play Region Length = 57312;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3119136000;
+            Last Modified High = 30818375;
+        }
+    }
+
+    Wave
+    {
+        Name = 10enemmyvoice;
+        File = waveDate\10enemmyvoice.wav;
+        Build Settings Last Modified Low = 595847224;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 89088;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3532533504;
+            Last Modified High = 30818326;
+        }
+    }
+
+    Wave
+    {
+        Name = 11gameover;
+        File = waveDate\11gameover.wav;
+        Build Settings Last Modified Low = 607127274;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 150;
+            Play Region Length = 2444596;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2930963712;
+            Last Modified High = 30818278;
+        }
+    }
+
+    Wave
+    {
+        Name = 12clear;
+        File = waveDate\12clear.wav;
+        Build Settings Last Modified Low = 640655444;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 156;
+            Play Region Length = 1132576;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 2930963712;
+            Last Modified High = 30818278;
+        }
+    }
+
+    Wave
+    {
+        Name = 13decision;
+        File = waveDate\13decision.wav;
+        Build Settings Last Modified Low = 661134705;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 78;
+            Play Region Length = 225824;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3237497088;
+            Last Modified High = 30818172;
+        }
+    }
+
+    Wave
+    {
+        Name = 14warning;
+        File = waveDate\14warning.wav;
+        Build Settings Last Modified Low = 680147146;
+        Build Settings Last Modified High = 30818441;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 78;
+            Play Region Length = 250400;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 3237497088;
+            Last Modified High = 30818172;
+        }
+    }
+
+    Wave
+    {
+        Name = 15menuopen;
+        File = waveDate\15menuopen.wav;
+        Build Settings Last Modified Low = 2773055353;
+        Build Settings Last Modified High = 30818514;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 78;
+            Play Region Length = 129056;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1676981248;
+            Last Modified High = 30818462;
+        }
+    }
+
+    Wave
+    {
+        Name = 16menuclose;
+        File = waveDate\16menuclose.wav;
+        Build Settings Last Modified Low = 2788219130;
+        Build Settings Last Modified High = 30818514;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 78;
+            Play Region Length = 133152;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1676981248;
+            Last Modified High = 30818462;
+        }
+    }
+
+    Wave
+    {
+        Name = 17start;
+        File = waveDate\17start.wav;
+        Build Settings Last Modified Low = 2802753183;
+        Build Settings Last Modified High = 30818514;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 2;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 140;
+            Play Region Length = 587808;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1676981248;
+            Last Modified High = 30818462;
+        }
+    }
+
+    Wave
+    {
+        Name = 18critical;
+        File = waveDate\18critical.wav;
+        Build Settings Last Modified Low = 2814810933;
+        Build Settings Last Modified High = 30818514;
+
+        Cache
+        {
+            Format Tag = 0;
+            Channels = 1;
+            Sampling Rate = 44100;
+            Bits Per Sample = 1;
+            Play Region Offset = 44;
+            Play Region Length = 16420;
+            Loop Region Offset = 0;
+            Loop Region Length = 0;
+            File Type = 1;
+            Last Modified Low = 1976757004;
+            Last Modified High = 30818511;
+        }
+    }
+}
